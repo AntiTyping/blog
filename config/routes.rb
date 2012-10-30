@@ -1,4 +1,9 @@
 Blog::Application.routes.draw do
+  root :to => 'home#index'
+
+  get "home/index"
+  post "home/new"
+
   resources :posts
 
   # The priority is based upon order of creation:
