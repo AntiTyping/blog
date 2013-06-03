@@ -36,3 +36,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+gem 'delayed_job_active_record'
+gem 'daemons'
